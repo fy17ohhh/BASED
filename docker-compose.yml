@@ -1,0 +1,47 @@
+version: "3.8"
+
+services:
+  flask-app:
+    image: flask-backend:latest
+    build: ./accent-classifier-flask
+    ports:
+      - "5050:5050"
+
+  springboot-backend:
+    image: springboot-backend:latest
+    build: ./based-backend
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/DSA4288
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: password
+    depends_on:
+      - db
+
+  db:
+    platform: linux/amd64
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "3307:3306" # Change this line
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d/:ro
+    healthcheck:
+      test: 'mysql --user=root --password=password --execute "SHOW DATABASES;"'
+      timeout: 10s
+      retries: 2
+
+  vue-frontend:
+    image: nginx:latest
+    build: ./based-frontend
+    ports:
+      - "8080:80"
+    volumes:
+      - "./based-frontend/dist:/usr/share/nginx/html/"
+      - "./based-frontend/nginx/:/etc/nginx/conf.d/"
+    restart: always
+    depends_on:
+      - flask-app
+      - springboot-backend
