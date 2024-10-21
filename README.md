@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the project! 🎉 This is my final year honours project developed during AY24-25 Semester 1.
+Welcome to BASED (Bias Assessment of SpEech Datasets)! 🎉 This is my final year honours project developed during AY24-25 Semester 1.
 
 The aim of this project is to develop a web-based application that can detect and assess bias in speech data. As speech data is increasingly used in various fields, including large language models (LLMs) training, Speech To Text (STT), and Automatic Speech Recognition (ASR), it is crucial to gain a comprehensive understanding of the data. Since models tend to favor the most common answers in their training data, analyzing data bias will provide valuable insights for developers.
 
