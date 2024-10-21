@@ -1,10 +1,10 @@
 <template>
   <footer>
     <div class="links">
-      <a href="https://github.com/your-repository-link" class="link"
+      <a href="https://github.com/fy17ohhh/BASED" class="link"
         >Repository</a
       ><br /><br />
-      <a href="https://your-report-link" class="link">Report</a>
+      <a href="https://github.com/fy17ohhh/BASED" class="link">Report</a>
     </div>
     <hr class="line" />
     <p class="text">@2024 BASED</p>

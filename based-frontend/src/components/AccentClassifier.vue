@@ -4,8 +4,8 @@
     <h3>This is an experiment feature of BASED, which allows you to upload own speech files to get the predicted accent distributions.</h3>
     <h3>To start:</h3>
     <p>1. Ensure that all your speech files are English, as our model only predicts english accents. </p>
-    <p>2. Click on the "Select Files" button to select the speech files you want to upload. </p>
-    <p>3. Click on the "Upload to Server" button to upload the selected files to the server. </p>
+    <p>2. Click on the "Select Files" button to select the speech files you want to upload, the files will be automatically upload. </p>
+    <p>3. You can also click on the uploaded files and pred 'delete' to remove the files. </p>
     <p>4. You will see the result once the prediction is out. Cheers!👏</p>
   </div>
   <div class="upload-container">
