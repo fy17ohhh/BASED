@@ -10,13 +10,13 @@ Apart from the bias assessment and visualizations, there's also an experiment fe
 
 ## Project Setup
 
-To start the project, run the following command:
+To start the project, run the following command: 🐳
 
 ```sh
-docker compose up
+docker-compose up
 ```
 
-## Access the Website
+## Access the Website 🌐
 
 Once the project is running, you can access the website at:
 
