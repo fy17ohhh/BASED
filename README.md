@@ -16,9 +16,9 @@ To start the project, run the following command: 🐳
 docker-compose up
 ```
 
-## Access the Website 🌐
+## Access the Website 
 
-Once the project is running, you can access the website at:
+Once the project is running, you can access the website at: 🌐
 
 ```sh
 http://localhost:8080
