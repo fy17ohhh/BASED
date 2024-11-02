@@ -31,7 +31,7 @@
       multiple
     >
       <el-button slot="trigger" size="small" type="primary" class="large-button"
-        >Choose files</el-button
+        >Select Files</el-button
       >
     </el-upload>
   </div>

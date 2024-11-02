@@ -34,12 +34,12 @@ services:
       retries: 2
 
   vue-frontend:
-    image: nginx:latest
-    build: ./based-frontend
+    image: nginx:alpine
+    build: ./based-frontend/
     ports:
       - "8080:80"
     volumes:
-      - "./based-frontend/dist:/usr/share/nginx/html/"
+      - "./based-frontend/dist/:/usr/share/nginx/html/"
       - "./based-frontend/nginx/:/etc/nginx/conf.d/"
     restart: always
     depends_on:

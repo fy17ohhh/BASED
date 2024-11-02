@@ -1,13 +1,13 @@
 <template>
   <div class="home-container">
     <h1>BASED</h1>
-      <h3>Bias Assessment <br/>for SpEech Dataset</h3>
+    <h3>Bias Assessment <br />for SpEech Dataset</h3>
     <p>
       Uncover the potential bias in audio datasets used in various fields
-      including large language models (LLMs) training, Speech To Text(STT), and
-      Automatic Speech Recognition(ASR). <br />
+      including Speech To Text(STT) and Automatic Speech Recognition(ASR)
+      <br />
       Gain valuable insights from the project to assess the biases in your
-      training data.
+      training data
     </p>
     <el-carousel
       indicator-position="outside"

@@ -3,31 +3,36 @@
     <section class="about-section">
       <h2>ABOUT THE PROJECT</h2>
       <p>
-        The aim of the project is to develop a web-based application that can detect and assess the
-        bias in speech data. As speech data is increasingly used in various fields including large
-        language models (LLMs) training, Speech To Text(STT), and Automatic Speech
-        Recognition(ASR), it is crucial to gain a comprehensive understanding of the data. Since
-        models tend to favor the most common answers in their training data, analyzing data bias
-        will provide valuable insights for developers.
+        The aim of the project is to develop a web-based application that can
+        detect and assess the bias in speech data. As speech data is
+        increasingly used in various fields including Speech To Text(STT), and
+        Automatic Speech Recognition(ASR), it is crucial to gain a comprehensive
+        understanding of the data. Since models tend to favor the most common
+        answers in their training data, analyzing data bias will provide
+        valuable insights for developers.
       </p>
       <p>
-        Depending on the nature of the data and the
-        types of bias examined, approaches including metadata analysis and machine learning
-        methodologies, will be implemented. The project focuses on uncovering potential bias
-        related to factors such as gender, racial, age, language, geographic region, cultural group,
-        and accent. BASED will automate the entire process, incorporating
-        various bias detection tools developed in the initial stages and employing diverse
-        visualization techniques to present the results.
+        Depending on the nature of the data and the types of bias examined,
+        approaches including metadata analysis and machine learning
+        methodologies, will be implemented. The project focuses on uncovering
+        potential bias related to factors such as gender, age, language,
+        geographic region, accent, and emotion. BASED will automate the entire
+        process, incorporating various bias detection tools developed in the
+        initial stages and employing diverse visualization techniques to present
+        the results.
       </p>
     </section>
 
     <section class="about-section">
       <h2>ABOUT ME</h2>
       <p>
-        Currently a final year undergraduate student at National University of Singapore, with a primary major in data science and analytics and a second major in computer science.
+        Currently a final year undergraduate student at National University of
+        Singapore, with a primary major in data science and analytics and a
+        second major in computer science.
       </p>
       <p>
-        Feel free to reach out to me via email or connect with me on GitHub and LinkedIn. I am always open to discussing new ideas and opportunities.
+        Feel free to reach out to me via email or connect with me on GitHub and
+        LinkedIn. I am always open to discussing new ideas and opportunities.
       </p>
       <div class="contact-info">
         <div class="email-info">
@@ -54,11 +59,15 @@
     <section class="about-section">
       <h2>ACKNOWLEDGEMENT</h2>
       <p>
-        I would like to express my gratitude to my supervisor, Professor Markus Kirchberg, for his guidance and support throughout the project.
-        I would also like to thank my families and friends for their encouragement and motivation.
+        I would like to express my gratitude to my supervisor, Professor Markus
+        Kirchberg, for his guidance and support throughout the project. I would
+        also like to thank my families and friends for their encouragement and
+        motivation.
       </p>
       <p>
-        I've learned a lot from this project and I am grateful for the opportunity to work on such an interesting and challenging project to conclude my undergraduate study experience.
+        I've learned a lot from this project and I am grateful for the
+        opportunity to work on such an interesting and challenging project to
+        conclude my undergraduate study experience.
       </p>
     </section>
   </div>
