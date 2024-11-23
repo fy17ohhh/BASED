@@ -1,5 +1,10 @@
 # BASED
 
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/user-attachments/assets/95faaf57-a26b-4a35-8388-41adde532602">
+</p>
+
+
 ## Introduction
 
 Welcome to BASED (Bias Assessment of SpEech Datasets)! 🎉 This is my final year honours project developed during AY24-25 Semester 1.
